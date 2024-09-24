@@ -1,0 +1,33 @@
+{
+  "title": "Hawa-CMS",
+  "database": null,
+  "dbs": [],
+  "setup": {
+    "db": [
+      {
+        "id": "mysql",
+        "title": "MySQL",
+        "icon": "mysql.svg",
+        "module": ["prisma", "drizzle"]
+      },
+      {
+        "id": "postgre",
+        "title": "PostgreSQL",
+        "icon": "postgre.svg",
+        "module": ["prisma", "drizzle"]
+      },
+      {
+        "id": "sqlite",
+        "title": "SQLite",
+        "icon": "sqlite.svg",
+        "module": ["turso", "drizzle"]
+      },
+      {
+        "id": "mongo",
+        "title": "MongoDB",
+        "icon": "mongo.svg",
+        "module": ["prisma"]
+      }
+    ]
+  }
+}
