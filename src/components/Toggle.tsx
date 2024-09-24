@@ -15,6 +15,7 @@ const FieldToggle: FC<FieldToggleProps> = ({
   };
   return (
     <div
+      data-testid="field-toggle"
       onClick={handleToggle}
       className={`w-10 p-3 ${active ? 'bg-blue-300' : 'bg-gray-300'} rounded-full relative select-none cursor-pointer`}>
       <div className={`w-5 h-5 bg-white rounded-full absolute top-1/2 ${active ? 'right-1' : 'left-1'} -translate-y-1/2`} />

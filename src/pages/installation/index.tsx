@@ -1,6 +1,6 @@
 import Button from "@/components/Button";
 import FieldInput, { FieldTextarea } from "@/components/Input";
-import LayoutInstallation from "@/components/layout/installation";
+import LayoutInstallation from "@/components/layout/Installation";
 import FieldSelect, { Option } from "@/components/Select";
 import FieldToggle from "@/components/Toggle";
 import loadSetup from "@/libs/loadSetup";
